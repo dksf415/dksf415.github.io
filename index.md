@@ -16,7 +16,7 @@ Sample Song Data
 
 Because there was no public API I once again had to try and programatically create URLs from the song data. This turned out to be difficult because the artist and song titles between billboard.com and lyrics.wikia.com do not always match (http://lyrics.wikia.com/wiki/The_Dream_Syndicate:I_Ain%27t_Living_Long_Like_This, http://lyrics.wikia.com/wiki/Puff_Daddy:P.Diddy).  
 
-
+<img src='images/tbl_songs.png'>
 
 However for the purposes of this exercise I decided I did not need 100% of all song lyrics.  After running the scraper, I was able to collect 60% of the songs from 1970 to 1979, but then my scraper failed.  My only conclusions is that my scraper was blocked by the site, so I was not able to complete this part of the project.
 
