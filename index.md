@@ -30,8 +30,8 @@ As for tags and metadata related to songs, musicbrainz.org had an API that allow
 
 
 **Sample Metadata - Tags and Artists**
-<img src='images/tags.png' style="width: 50%; height: 50%">
-<img src='images/artists.png' style="width: 50%; height: 50%">
+<img src='images/tags.png'>
+<img src='images/artists.png'>
 
 ### DATA EVALUATION
 
