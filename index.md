@@ -16,7 +16,7 @@ The purpose of this research is to use the R programming langauge and tools to a
 
 The base dataset is all of Billboard magazine’s ‘Hot 100’ (www.billboard.com), a list of the top 100 songs of the week going back to January of 1970.  The lyrics will be extracted from lyrics.wikia.com.  The genres will be derived from the beta tagging system at musicbrainz.org.  The reading level and/or sophistication of the lyrics will be calculated by www.readabilityformulas.com.  All data is stored in a MySQL database, organized via SQL and exported to CSV files.  The CSV files will be read into R.
 
-Sample Song Data
+**Sample Song Data**
 
 _Song data collection methods have been hidden_
 
