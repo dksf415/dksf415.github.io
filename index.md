@@ -33,7 +33,7 @@ The first data set is a count of the distinct songs on the Hot 100 grouped by ye
 
 * barplot(songs$songs, names.arg = songs$year, las = 2,xlab = "Year", ylab = "# of Songs on Hot 100")
 
-![image alt text](images/image_1.png)
+![Distinct Top 100](images/image_1.png)
 
 **_*NOTE: Y axis is the number of unique songs, not total songs_**
 
@@ -47,7 +47,7 @@ The second data set is a count of the distinct artists on the Hot 100 list group
 
 * barplot(artists$artists, names.arg = artists$year, las = 2,xlab = "Year", ylab = "# of Artists on Hot 100")
 
-![image alt text](images/image_2.png)
+![By Top 100](images/image_2.png)
 
 **_*NOTE: Y axis is the number of unique artists, not total artists_**
 
@@ -59,7 +59,7 @@ Unfortunately for the hypothesis, the data does not support my anecdotal experie
 
 To try and eliminate the ‘long tail’ of songs, we ran the same queries for only the top 25 songs and artists:
 
-![image alt text](images/image_3.png)
+![By Top 25](images/image_3.png)
 
 **_*NOTE: Y axis is the number of unique artists and songs, not total artists and songs_**
 
@@ -79,7 +79,7 @@ I eliminated the majority of the tags and used only 34:
 
 Below is a chart of the sum of instances of each tag per year:
 
-![image alt text](images/image_4.png)
+![Sums by Tags](images/image_4.png)
 
 **EVALUATION**
 
