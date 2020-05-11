@@ -1,3 +1,3 @@
-# D. Kondo
+## Table of Contents
 
-[Using R to 'prove' The 80's: The 'Greatest' Decade of Music in Human History](index.md)
+- [Using R to 'prove' The 80's: The 'Greatest' Decade of Music in Human History](index.md)
