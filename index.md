@@ -1,3 +1,5 @@
+FOR ENTERTAINMENT PURPOSES ONLY - Not a scientific publication
+
 PROPOSAL
 
 The purpose of this research is to use the R programming langauge and tools to analyze and visualize gathered data to prove that the 80's was the "greatest" decade of music in human history. For the purposes of this experiment, “greatest” will be measured as:
