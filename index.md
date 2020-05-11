@@ -21,7 +21,7 @@ A PHP web scraper was used to manually extract the data from ‘the website’ b
 
 **Sample Song Data**
 
-![image alt text](image_0.png)
+![Sample Song Data](images/image_0.png)
 
 As for tags and metadata related to songs, musicbrainz.org had an API that allowed me to extract tags for the artists in the database.  The metadata has a few issues.  First it is in beta and suffers from the fact that categorizing music by genre is completely subjective and therefore not an exact science.  Second the metadata is by artist and not song, so if an artist has a diverse discography that has evolved over time, we would not be able to accurately label the music year to year.
 
@@ -33,7 +33,7 @@ The first data set is a count of the distinct songs on the Hot 100 grouped by ye
 
 * barplot(songs$songs, names.arg = songs$year, las = 2,xlab = "Year", ylab = "# of Songs on Hot 100")
 
-![image alt text](image_1.png)
+![image alt text](images/image_1.png)
 
 **_*NOTE: Y axis is the number of unique songs, not total songs_**
 
@@ -47,7 +47,7 @@ The second data set is a count of the distinct artists on the Hot 100 list group
 
 * barplot(artists$artists, names.arg = artists$year, las = 2,xlab = "Year", ylab = "# of Artists on Hot 100")
 
-My ![image alt text](image_2.png)
+![image alt text](images/image_2.png)
 
 **_*NOTE: Y axis is the number of unique artists, not total artists_**
 
@@ -59,7 +59,7 @@ Unfortunately for the hypothesis, the data does not support my anecdotal experie
 
 To try and eliminate the ‘long tail’ of songs, we ran the same queries for only the top 25 songs and artists:
 
-![image alt text](image_3.png)
+![image alt text](images/image_3.png)
 
 **_*NOTE: Y axis is the number of unique artists and songs, not total artists and songs_**
 
@@ -79,7 +79,7 @@ I eliminated the majority of the tags and used only 34:
 
 Below is a chart of the sum of instances of each tag per year:
 
-![image alt text](image_4.png)
+![image alt text](images/image_4.png)
 
 **EVALUATION**
 
