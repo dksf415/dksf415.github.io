@@ -2,7 +2,7 @@ FOR ENTERTAINMENT PURPOSES ONLY - Not a scientific publication
 
 ## THE 80's: The 'Greatest' Decade of Music in Human History
 
-**PROPOSAL**
+### PROPOSAL
 
 The purpose of this research is to use the R programming langauge and tools to analyze and visualize gathered data to prove that the 80's was the "greatest" decade of music in human history. For the purposes of this experiment, “greatest” will be measured as:
   
@@ -12,7 +12,7 @@ The purpose of this research is to use the R programming langauge and tools to a
 
 “More prolific” would be measured as the number of different artists publishing different songs, “more variety” would be measured as the number of different genres, and “better quality” would be measured as the complexity of the musical composition and/or reading level of the lyrics.	
 
-**DATA COLLECTION**
+### DATA COLLECTION
 
 The base dataset is all of Billboard magazine’s ‘Hot 100’ (www.billboard.com), a list of the top 100 songs of the week going back to January of 1970.  The lyrics will be extracted from lyrics.wikia.com.  The genres will be derived from the beta tagging system at musicbrainz.org.  The reading level and/or sophistication of the lyrics will be calculated by www.readabilityformulas.com.  All data is stored in a MySQL database, organized via SQL and exported to CSV files.  The CSV files will be read into R.
 
@@ -29,4 +29,9 @@ As for tags and metadata related to songs, musicbrainz.org had an API that allow
 <img src='images/tbl_songs.png'>
 
 
-**Sample Metadata**
+**Sample Metadata - Tags and Artists**
+<img src='images/tags.png' style="width: 50%; height: 50%">
+<img src='images/artists.png' style="width: 50%; height: 50%">
+
+### DATA EVALUATION
+
